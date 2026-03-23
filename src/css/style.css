@@ -1,0 +1,27 @@
+button {
+    background-color: white;
+}
+
+option {
+    background-color: white;
+}
+
+body {
+    background: rgb(65, 65, 65);
+}
+
+p {
+    color: white;
+}
+
+input {
+    background: white;
+}
+
+input::placeholder {
+  color: black;
+}
+
+h1{
+    color: white;
+}
