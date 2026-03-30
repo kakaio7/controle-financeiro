@@ -8,18 +8,26 @@
     <title>Controle Financeiro</title>
 </head>
 <body>
-    <input type="text" placeholder="nome" name="" id="name"><br>
-    <input type="number" name="" placeholder="valor" id="valor"><br>
-    <select id="select">
-        <option value="add">adicionar</option>
-        <option value="remove">remover</option>
-    </select><br><br>
-    <button id="play">adicionar</button>
+    <div class="container">
+        <div class="card">
+            <div class="caixas">
+            <input type="text" placeholder="nome" name="" id="name">
+            <input type="number" name="" placeholder="valor" id="valor">
+        </div>    
+        <div class="selecao">
+            <select id="select">
+                <option value="add">adicionar</option>
+                <option value="remove">remover</option>
+                </select>
 
-    <p id="totalT">Total: 0</p>
-    <div id="tela">
+        </div>
+
+        <button id="play">Enviar</button>
 
     </div>
-
+        <p id="totalT">Total: 0</p>
+        <div id="tela">
+        </div>
+    </div>
 </body>
 </html>
